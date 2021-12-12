@@ -1,7 +1,7 @@
 import JavaScript from "./Javascript.js";
 import Ruby from "./Ruby.js";
 
-const libraryUuid = [
+const libraryUuidList = [
   {
     uuid: "59a046bf-c921-4409-a421-d638841ead48",
     library: JavaScript,
@@ -13,7 +13,7 @@ const libraryUuid = [
 ];
 
 export function getProjectLibrary(uuid) {
-  for (let libObj of libraryUuid) {
+  for (let libObj of libraryUuidList) {
     if (libObj["uuid"] === uuid) return libObj["library"];
   }
   return [];

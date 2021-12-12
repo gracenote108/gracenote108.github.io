@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ItemCard from "./ItemCard";
 
 class Display extends Component {
   state = {};
@@ -7,7 +8,7 @@ class Display extends Component {
     return (
       <div id="display">
         {library.map((entry) => (
-          <div>{entry["projectName"]}</div>
+          <ItemCard data={entry} />
         ))}
       </div>
     );

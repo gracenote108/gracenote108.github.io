@@ -62,5 +62,19 @@ code {
 }
 
 #display {
+  display: flex;
+  flex-direction: row;
   flex-grow: 1;
+}
+
+#itemcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: black;
+  border-style: solid;
+  height: 135px;
+  width: 130px;
+  text-align: center;
 }

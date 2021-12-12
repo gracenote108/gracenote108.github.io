@@ -28,28 +28,28 @@ const JavaScript = [
   {
     projectName: "Damodara's Doughnuts (Restaurant)",
     git: "https://github.com/gracenote108/OdinProject-JavaScript/tree/main/Restaurant",
-    URL: "https://gracenote108.github.io/OdinProject-JavaScript/Restaurant/dist/index.html",
-    Text: `A book library created using React.
+    url: "https://gracenote108.github.io/OdinProject-JavaScript/Restaurant/dist/index.html",
+    text: `A book library created using React.
     Note: Adding a new book allows a user to upload their own image from their computer. However, there is no backend setup for this so the image will not display properly.`,
   },
   {
     projectName: "Tic Tac Toe",
     git: "https://github.com/gracenote108/OdinProject-JavaScript/tree/main/TicTacToe",
-    URL: "https://gracenote108.github.io/OdinProject-JavaScript/TicTacToe/index.html",
-    Text: `Tic Tac Toe game.`,
+    url: "https://gracenote108.github.io/OdinProject-JavaScript/TicTacToe/index.html",
+    text: `Tic Tac Toe game.`,
   },
   {
     projectName: "Karma (Todo List)",
     git: "https://github.com/gracenote108/OdinProject-JavaScript/tree/main/TodoList",
-    URL: "https://gracenote108.github.io/OdinProject-JavaScript/TodoList/dist/index.html",
-    Text: `Application that stores multiple projects and subtasks for each project. 
+    url: "https://gracenote108.github.io/OdinProject-JavaScript/TodoList/dist/index.html",
+    text: `Application that stores multiple projects and subtasks for each project. 
     Note: Not setup to save data so data will be wiped after each session.`,
   },
   {
     projectName: "Thunder God's Weather App",
     git: "https://github.com/gracenote108/OdinProject-JavaScript/tree/main/WeatherApp",
-    URL: "https://gracenote108.github.io/OdinProject-JavaScript/WeatherApp/dist/index.html",
-    Text: `Application that will retrieve weather information.`,
+    url: "https://gracenote108.github.io/OdinProject-JavaScript/WeatherApp/dist/index.html",
+    text: `Application that will retrieve weather information.`,
   },
 ];
 
